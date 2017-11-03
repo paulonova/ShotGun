@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ShotGun</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header jumbotron  text-center">
+            <h1 class="game-title">Shotgun</h1>
+            <h3>Inlämningsuppgift n.1</h3>
+            <p>Fend17 - Paulo Vila Nova - Nackademin</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img id="thumb1"  alt="Model image">
+                    <div class="caption text-center">
+                        <h3>Dator</h3><br/>
+                        <h4 id="data-shot-point">Skjut poängs: 00</h4>
+                        <p class="green-buttons">
+                            <button id="data-player" data-toggle="tooltip" data-placement="top" title="Start playing with user!" type="button" class="btn btn-success">Kör spel</button>
+                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img id="thumb2" alt="Model image">
+                        <div class="caption text-center">
+                            <h3>Result</h3>
+                            <ul>
+                                <li id="user-result-list">User: </li>
+                                <li id="data-result-list">Dator: </li>
+                            </ul>
+                            <hr>
+                            <h1 id="who-wins" class="game-title">Who wins?</h1>
+                        </div>
+                        
+
+                    </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img id="thumb3" alt="Model image">
+                        <div class="caption text-center">
+                            <h3>Användare</h3><br/>
+                            <h4 id="user-shot-point">Skjut poängs: 00</h4>
+                            <p class="green-buttons">
+                                <button id="user-shot" type="button" class="btn btn-success">Skjuta</button>
+                                <button id="user-load" type="button" class="btn btn-success">Ladda</button>
+                                <button id="user-shield" type="button" class="btn btn-success">Blocka</button>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+
+
+
+        </div>
+
+                
+
+
+    </div>
+
+
+
+</body>
+
+</html>
